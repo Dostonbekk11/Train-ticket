@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: g33-spring-boot-active-use
+  datasource:
+    url: jdbc:postgresql://localhost:5432/train_booking
+    username: postgres
+    password: 1234
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port:  465
+    username: dostonshavkatov53@gmail.com
+    password: dekbvkatfzruijkf
+    properties:
+      mail:
+        smtp:
+          properties:
+            enable: true
+
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            enable: true
+
+  banner:
+    location: banner.txt
+
+jjwt:
+  token:
+    key:
+      secret: O4xoGCVmFqHnkkbcOkqnD/yB2V/W8dpQpFXq981jDOt4dnyB0Ya+v1DpYNYh8N+UXSMfPCC9wCglXyjAgEKsRQ==
+    time:
+      expiration: 1200000
+
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger
+
+
