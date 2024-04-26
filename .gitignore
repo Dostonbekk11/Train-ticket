@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 .idea
 
+
 ### STS ###
 .apt_generated
 .classpath
@@ -14,8 +15,7 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+### IntelliJ IDEA ###s
 *.iws
 *.iml
 *.ipr
